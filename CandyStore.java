@@ -100,7 +100,7 @@ public class CandyStore {
         System.out.println("d) Lollipops: 1 for $0.50 or 5 for $2.00");
         System.out.println("e) Smarties: $1.50/1 kg");
 
-        System.out.print("\nChoose the candy by typing its character: ");
+        System.out.print("\nChoose the candy by typing its character or end the order by typing 'exit': ");
 
         String candy = input.nextLine(); //Takes the inputted character and stores it in a variable
 
@@ -108,7 +108,7 @@ public class CandyStore {
        
     }
 
-    
+
     public static int quantityPrompt() { //This method prompts the user to enter the quantity of the candy they'd like to buy
 
         System.out.print("Enter the quantity: ");
